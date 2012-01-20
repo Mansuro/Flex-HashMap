@@ -8,7 +8,8 @@ package tn.zuro.collections
      * which are to expose an API into a managed collection of key /
      * value pairs.
      * 
-     * @author Nithiyananthan.S / 16-Mar-2011
+     * @author Eric J. Feminella
+     * modified by Mansour Blanco
      *
      */
     public interface IMap
@@ -183,13 +184,13 @@ package tn.zuro.collections
          */
         function getEntries() : Array;
 		
-		/**
-		 * Checks if all elements are undefined. If there is a value which is
-		 * different than undefined, it returns false
-		 * 
-		 * @return <code>true</code> if all values are undefined,
-		 *         otherwise <code>false</code>.
-		 */
-		function isAllUndefined():Boolean;
+	/**
+	 * Checks if all elements are undefined. If there is a value which is
+	 * different than undefined, it returns false
+	 * 
+	 * @return <code>true</code> if all values are undefined,
+	 *         otherwise <code>false</code>.
+	 */
+	function isAllUndefined():Boolean;
     }
 }

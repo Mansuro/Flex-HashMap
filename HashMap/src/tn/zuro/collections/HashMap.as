@@ -35,7 +35,8 @@ package tn.zuro.collections
 	 * </listing>
 	 *
 	 * @see http://livedocs.adobe.com/flex/3/langref/flash/utils/Dictionary.html flash.utils.Dictionary
-	 * @author Nithiyananthan.S / 16-Mar-2011
+	 * @author Eric J. Feminella
+	 * modified by Mansour Blanco 
 	 *
 	 */
 	public class HashMap implements IMap
